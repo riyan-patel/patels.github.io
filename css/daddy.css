@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    color: rgb(83, 83, 83);
+    font-family: sans-serif;
+}
+
+.main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 50px;
+    margin-top: 50px;
+    font-weight: 200;
+    position: absolute;
+    border-bottom: 2px solid orange;
+    left: 40%;
+}
+
+.intro img {
+    width: 500px;
+    height: auto;
+    margin-top: 200px;
+    margin-left: 300px;
+}
+
+.other-pic {
+    margin-top: 65px;
+}
+
+.li-other-pic{
+    list-style: none;
+    width: 100%;
+}
+
+.li-other-pic li{
+    display: block;
+    float: left;
+    width: 25%;
+    height: 238px;
+
+}
+
+.other-dad-pic{
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+.other-dad-pic img{
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+
+}
+
+.other-dad-pic img:hover{
+    opacity: 1;
+    transform: scale(1.03);
+}
+
+footer {
+    margin-top: 600px;
+    background-color: #333;
+    padding: 40px;
+}
+
+footer p {
+    color: #888;
+    text-align: center;
+    margin-top: 60px;
+}
+
+footer a {
+    float: right;
+    margin-right: 150px;
+}
+
+footer a:link,
+footer a:visited {
+    color: white;
+}
+
+footer a:hover,
+footer a:active {
+    color: orange;
+    transition: color 0.4s;
+}

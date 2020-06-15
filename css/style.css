@@ -1,0 +1,239 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    color: rgb(83, 83, 83);
+    font-family: sans-serif;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/backgroundpic.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    background-attachment: fixed;
+}
+
+h1 {
+    color: white;
+    font-size: 80px;
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    font-weight: 100;
+}
+
+.main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 50px;
+    font-weight: 200;
+    position: absolute;
+    border-bottom: 2px solid orange;
+    left: 40%;
+    
+}
+
+
+
+/* copy */
+
+.fuva-foi img {
+    width: 200px;
+    height: auto;
+    margin-top: 180px;
+    border-radius: 7%;
+}
+
+.fuva-foi li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 80px;
+}
+
+.fuva-foi a:link,
+.fuva-foi a:visited {
+    color: rgb(83, 83, 83);
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.fuva-foi a:hover,
+.fuva-foi a:active {
+    color: orange;
+    transition: color 0.4s;
+} 
+
+.mom-dad img {
+    width: 200px;
+    height: auto;
+    margin-top: 120px;
+    border-radius: 7%;
+}
+
+.mom-dad li {
+    list-style: none;
+    display: inline-block;
+}
+
+.mummy {
+    margin-left: 70px;
+}
+
+.daddy {
+    margin-left: 300px;
+}
+
+.mom-dad a:link,
+.mom-dad a:visited {
+    color: rgb(83, 83, 83);
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.mom-dad a:hover,
+.mom-dad a:active {
+    color: orange;
+    transition: color 0.4s;
+} 
+
+.sis img {
+    width: 200px;
+    height: auto;
+    margin-top: 120px;
+    border-radius: 7%;
+}
+
+.sis li {
+    list-style: none;
+    display: inline-block;
+    
+}
+
+.pari {
+    margin-left: 210px;
+}
+
+.salu {
+    margin-left: 230px;
+}
+
+.sis a:link,
+.sis a:visited {
+    color: rgb(83, 83, 83);
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.sis a:hover,
+.sis a:active {
+    color: orange;
+    transition: color 0.4s;
+} 
+
+.bro img {
+    width: 200px;
+    height: auto;
+    margin-top: 120px;
+    border-radius: 7%;
+}
+
+.bro li {
+    list-style: none;
+    display: inline-block;
+}
+
+.me {
+    margin-left: 200px;
+}
+
+.anuj {
+    margin-left: 250px;
+}
+
+.bro a:link,
+.bro a:visited {
+    color: rgb(83, 83, 83);
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.bro a:hover,
+.bro a:active {
+    color: orange;
+    transition: color 0.4s;
+
+} 
+
+.florida img{
+    width: 800px;
+    height: auto;
+    margin-top: 230px;
+    margin-left: 150px;
+    border-radius: 8%;
+
+}
+
+.florida h2 {
+    margin-top: 100px;
+}
+
+footer {
+    margin-top: 60px;
+    background-color: #333;
+    padding: 40px;
+    position: relative;
+    
+}
+
+footer p {
+    color: #888;
+    text-align: center;
+    margin-top: 60px;
+}
+
+footer a  {
+    float: right;
+    margin-right: 150px;
+}
+
+footer a:link,
+footer a:visited {
+    color: rgb(228, 228, 228);
+}
+
+footer a:hover,
+footer a:active {
+    color: orange;
+    transition: color 0.4s;
+}
+
+.end {
+    height: 38px;
+    width: 38px;
+    border-radius: 50%;
+    float: left;
+    left: 94px;
+    position: absolute;
+    top: 42px;
+}
+
+.end1{
+    top: -7px;
+    left: 140px;
+    font-size: 14px;
+    float: left;
+    position: absolute;
+}
